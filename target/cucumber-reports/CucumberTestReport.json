@@ -3,36 +3,48 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-14T09:11:24.934Z",
-        "line": 5,
-        "name": "Validate SBDB Close-Approach Data API for date min and date max",
+        "start_timestamp": "2021-07-15T21:57:37.914Z",
+        "line": 4,
+        "name": "Validate the API as per the given inputs",
         "description": "",
-        "id": "to-validate-sbdb-close-approach-data-api;validate-sbdb-close-approach-data-api-for-date-min-and-date-max",
+        "id": "to-validate-sbdb-close-approach-data-api;validate-the-api-as-per-the-given-inputs",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "the script is on the API homepage",
+            "name": "the query parameter from command line arguments",
             "match": {
-              "location": "stepdefinitions.GenericValidationSteps.the_script_is_on_the_api_homepage()"
+              "location": "stepdefinitions.GenericValidationSteps.query_parameter_from_command_line_arguments()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11898000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "send GET http request and get the asteroids and comets list",
+            "match": {
+              "location": "stepdefinitions.GenericValidationSteps.i_set_get_employee_service_api_endpoint()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@regression"
+            "name": "@apivalidation"
           }
         ]
       }
     ],
     "name": "To Validate SBDB Close-Approach Data API",
-    "description": "To Login in Demopage we have to enter login details",
+    "description": "",
     "id": "to-validate-sbdb-close-approach-data-api",
     "keyword": "Feature",
     "uri": "file:features/apivalidation.feature",

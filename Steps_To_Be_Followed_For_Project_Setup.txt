@@ -1,0 +1,26 @@
+@author Santhosh Kumar
+
+##########################
+Language - Java
+Test Framework - TestNG
+Development Process - Cucumber, BDD
+API Automation Tool - REST ASSURED
+Reporting Tool - Extent Report
+##########################
+
+Step 1: Clone the Project using any SCM tool
+
+Step 2: Import the project into Eclipse by following the steps "File -> Import -> Maven -> Existing Maven Projects"
+
+Step 3: Do Maven Update
+
+Step 4: Run the Test
+	4.1 Run
+	4.2	Run Configurations 
+	4.3	Test Tab - Browse Project, Choose Suite Radio Button & Browse testng.xml from the workspace
+	4.4 Arguments Tab - Pass the sample condition in VM arguments text box (Example: -Ddate-min=1900-01-01 -Ddate-max=2100-01-01)
+	4.5 Click Run button
+
+Step 5: Verify the Test Results in console
+
+Step 6: Verify the Detailed Test Report from "ExtentReportResults.html" in Project workspace

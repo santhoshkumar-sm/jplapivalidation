@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27397" started-at="2021-07-21T16:34:25 IST" finished-at="2021-07-21T16:34:53 IST">
+  <suite name="Suite" duration-ms="42809" started-at="2021-07-21T17:06:09 IST" finished-at="2021-07-21T17:06:52 IST">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@7f13d6e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@71bbf57e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="27397" started-at="2021-07-21T16:34:25 IST" finished-at="2021-07-21T16:34:53 IST">
+    <test name="Test" duration-ms="42809" started-at="2021-07-21T17:06:09 IST" finished-at="2021-07-21T17:06:52 IST">
       <class name="testrunner.TestRunner">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:testrunner.TestRunner@7f13d6e]" name="startTest" is-config="true" duration-ms="170" started-at="2021-07-21T16:34:25 IST" finished-at="2021-07-21T16:34:25 IST">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:testrunner.TestRunner@71bbf57e]" name="startTest" is-config="true" duration-ms="4800" started-at="2021-07-21T17:06:04 IST" finished-at="2021-07-21T17:06:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunner.TestRunner@7f13d6e]" name="setUpClass" is-config="true" duration-ms="708" started-at="2021-07-21T16:34:25 IST" finished-at="2021-07-21T16:34:26 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunner.TestRunner@71bbf57e]" name="setUpClass" is-config="true" duration-ms="703" started-at="2021-07-21T17:06:09 IST" finished-at="2021-07-21T17:06:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@7f13d6e]" name="runScenario" duration-ms="25060" started-at="2021-07-21T16:34:26 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-21T16:34:51 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@71bbf57e]" name="runScenario" duration-ms="40870" started-at="2021-07-21T17:06:10 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-21T17:06:51 IST">
           <params>
             <param index="0">
               <value>
@@ -34,11 +34,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@7f13d6e]" name="tearDownClass" is-config="true" duration-ms="1502" started-at="2021-07-21T16:34:51 IST" finished-at="2021-07-21T16:34:53 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@71bbf57e]" name="tearDownClass" is-config="true" duration-ms="1134" started-at="2021-07-21T17:06:51 IST" finished-at="2021-07-21T17:06:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testrunner.TestRunner@7f13d6e]" name="endTest" is-config="true" duration-ms="1309" started-at="2021-07-21T16:34:54 IST" finished-at="2021-07-21T16:34:55 IST">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testrunner.TestRunner@71bbf57e]" name="endTest" is-config="true" duration-ms="1016" started-at="2021-07-21T17:06:52 IST" finished-at="2021-07-21T17:06:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

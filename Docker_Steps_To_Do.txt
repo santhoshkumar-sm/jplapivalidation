@@ -1,0 +1,22 @@
+Launch PowerShell
+
+docker login 
+--enter username and password>
+
+docker pull santhoshkumarsm/smallbodydbapi:1.0
+
+docker images
+
+docker run -it --name apivalidator santhoshkumarsm/smallbodydbapi:1.0 /bin/bash
+
+mvn clean test -Ddate-min=1900-01-01 -Ddate-max=2100-01-01
+
+exit
+
+docker ps -a
+
+docker rm <CONTAINER_ID>
+
+docker images
+
+docker rmi <IMAGE_ID>

@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-21T11:19:06.989Z",
+        "start_timestamp": "2021-07-21T11:36:10.635Z",
         "line": 4,
         "name": "Validate the API as per the given inputs",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 22241000000,
+              "duration": 40473000000,
               "status": "passed"
             },
             "line": 7,

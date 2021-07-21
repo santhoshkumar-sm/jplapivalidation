@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13565" started-at="2021-07-16T03:27:36 IST" finished-at="2021-07-16T03:27:50 IST">
+  <suite name="Suite" duration-ms="24239" started-at="2021-07-21T16:49:05 IST" finished-at="2021-07-21T16:49:29 IST">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@528931cf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="13565" started-at="2021-07-16T03:27:36 IST" finished-at="2021-07-16T03:27:50 IST">
+    <test name="Test" duration-ms="24239" started-at="2021-07-21T16:49:05 IST" finished-at="2021-07-21T16:49:29 IST">
       <class name="testrunner.TestRunner">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:testrunner.TestRunner@528931cf]" name="startTest" is-config="true" duration-ms="181" started-at="2021-07-16T03:27:36 IST" finished-at="2021-07-16T03:27:36 IST">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:testrunner.TestRunner@528931cf]" name="startTest" is-config="true" duration-ms="575" started-at="2021-07-21T16:49:04 IST" finished-at="2021-07-21T16:49:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunner.TestRunner@528931cf]" name="setUpClass" is-config="true" duration-ms="680" started-at="2021-07-16T03:27:37 IST" finished-at="2021-07-16T03:27:37 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunner.TestRunner@528931cf]" name="setUpClass" is-config="true" duration-ms="1169" started-at="2021-07-21T16:49:05 IST" finished-at="2021-07-21T16:49:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@528931cf]" name="runScenario" duration-ms="12140" started-at="2021-07-16T03:27:37 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-16T03:27:49 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@528931cf]" name="runScenario" duration-ms="22581" started-at="2021-07-21T16:49:06 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-21T16:49:29 IST">
           <params>
             <param index="0">
               <value>
@@ -34,11 +34,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@528931cf]" name="tearDownClass" is-config="true" duration-ms="683" started-at="2021-07-16T03:27:49 IST" finished-at="2021-07-16T03:27:50 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@528931cf]" name="tearDownClass" is-config="true" duration-ms="430" started-at="2021-07-21T16:49:29 IST" finished-at="2021-07-21T16:49:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testrunner.TestRunner@528931cf]" name="endTest" is-config="true" duration-ms="588" started-at="2021-07-16T03:27:50 IST" finished-at="2021-07-16T03:27:51 IST">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testrunner.TestRunner@528931cf]" name="endTest" is-config="true" duration-ms="2180" started-at="2021-07-21T16:49:29 IST" finished-at="2021-07-21T16:49:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27397" started-at="2021-07-21T16:34:25 IST" finished-at="2021-07-21T16:34:53 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@7f13d6e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="27397" started-at="2021-07-21T16:34:25 IST" finished-at="2021-07-21T16:34:53 IST">
+      <class name="testrunner.TestRunner">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:testrunner.TestRunner@7f13d6e]" name="startTest" is-config="true" duration-ms="170" started-at="2021-07-21T16:34:25 IST" finished-at="2021-07-21T16:34:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunner.TestRunner@7f13d6e]" name="setUpClass" is-config="true" duration-ms="708" started-at="2021-07-21T16:34:25 IST" finished-at="2021-07-21T16:34:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@7f13d6e]" name="runScenario" duration-ms="25060" started-at="2021-07-21T16:34:26 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-21T16:34:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the API as per the given inputs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate SBDB Close-Approach Data API]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@7f13d6e]" name="tearDownClass" is-config="true" duration-ms="1502" started-at="2021-07-21T16:34:51 IST" finished-at="2021-07-21T16:34:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testrunner.TestRunner@7f13d6e]" name="endTest" is-config="true" duration-ms="1309" started-at="2021-07-21T16:34:54 IST" finished-at="2021-07-21T16:34:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testrunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

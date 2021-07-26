@@ -1,22 +1,32 @@
-Launch PowerShell
+Step 1: Launch PowerShell
 
+Step 2: Login to the docker using username and password 
 docker login 
 --enter username and password>
 
+Step 3: Pull the repository into the local using pull command
 docker pull santhoshkumarsm/smallbodydbapi:1.0
 
+Step 4: Verify the repository is copied into local and thereby new Docker Image has been created
 docker images
 
+Step 5: Run the image to create Container. /bin/bash command is used to open the bash terminal once the container is started
 docker run -it --name apivalidator santhoshkumarsm/smallbodydbapi:1.0 /bin/bash
 
+Step 6: Run the Maven tests along with input conditions (optional)
 mvn clean test -Ddate-min=1900-01-01 -Ddate-max=2100-01-01
 
+Step 7: Exit the container
 exit
 
+Step 8:Verify that container is stopped
 docker ps -a
 
+Step 9: Remove the unused container using rm command
 docker rm <CONTAINER_ID>
 
+Step 10: To get the list of images in the docker
 docker images
 
+Step 11: Remove the unused images using rmi command
 docker rmi <IMAGE_ID>
